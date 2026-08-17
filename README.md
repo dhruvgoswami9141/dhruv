@@ -7,10 +7,10 @@ multi-user server using LVM on RHEL, running inside Oracle VM VirtualBox.
 Normal disk partitions are fixed — once you run out of space, you're stuck
 resizing manually or migrating data. I wanted to actually build and test a
 setup where storage can grow live, without touching the disk layout or taking
-anything offline.
+anything offline and this was my project for linux lab.
 
 ## What I used
-- RHEL (free developer subscription), running in Oracle VM VirtualBox
+- Rhel running in Oracle VM VirtualBox
 - XFS as the filesystem
 - 3 extra virtual disks added specifically for this (5GB each)
 
