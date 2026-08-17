@@ -29,12 +29,6 @@ I followed the standard LVM layering:
 - Set up /etc/fstab so mounts survive a reboot (broke it once, fixed it — details in the report)
 - Locked down each user's folder so they can only access their own storage
 
-## A few things that went wrong along the way
-I ran into a handful of real errors while building this — a bad lvcreate
-syntax, a broken fstab from editing in vi, trying to shrink an XFS volume
-with the wrong tool, and forgetting to actually create the Linux users before
-chown-ing their folders. All of that is written up in the report since I think
-it's more honest (and more useful) than pretending everything worked first try.
 
 ## Files here
 - `report/` — the full write-up
@@ -43,7 +37,7 @@ it's more honest (and more useful) than pretending everything worked first try.
 
 ## Full VM
 The VM itself (RHEL + everything already set up) is too big for GitHub, so
-it's here instead: [Download OVA]((https://drive.google.com/file/d/10Zo48-g9533baO-mXpI9uQ2RwmpyoyQS/view?usp=drive_link))
+it's here instead: [Download the file from Google Drive](https://drive.google.com/file/d/10Zo48-g9533baO-mXpI9uQ2RwmpyoyQS/view?usp=drive_link)
 
 ## Author
 Dhruv Goswami
